@@ -61,9 +61,12 @@
         </div>
     </div>
 
-    <footer class="mt-5 py-3 text-center text-muted">
+    <footer class="mt-5 py-3 text-center">
         <div class="container">
-            <p>Studentadministrasjonssystem - USN</p>
+            <p class="text-muted">Studentadministrasjonssystem</p>
+            <?php if (!empty($error)): ?>
+                <div class="alert alert-danger"><?= htmlspecialchars($error) ?></div>
+            <?php endif; ?>
         </div>
     </footer>
 
