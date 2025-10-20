@@ -1,6 +1,6 @@
 <?php
 // Database configuration
-$DB_HOST = 'localhost';  // This will be overridden by Dokploy env var
+$DB_HOST = 'mysql.usn.no';  // Direct connection to USN MySQL server
 $DB_NAME = 'stpet1155';
 $DB_USER = 'stpet1155';
 $DB_PASS = 'd991stpet1155';

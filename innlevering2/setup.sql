@@ -1,8 +1,12 @@
--- Drop tables if they exist (in correct order due to foreign key)
-DROP TABLE IF EXISTS student;
-DROP TABLE IF EXISTS klasse;
+-- Database setup script for student management system
+-- This script creates the necessary tables and indexes for managing students and classes
+-- Last updated: 2025-10-21
 
--- Create klasse table
+-- First, drop existing tables in correct order (due to foreign key constraints)
+DROP TABLE IF EXISTS student;  -- Drop child table first
+DROP TABLE IF EXISTS klasse;   -- Then drop parent table
+
+-- Create klasse (class) table - Parent table
 CREATE TABLE klasse (
     klassekode CHAR(5) NOT NULL,
     klassenavn VARCHAR(50) NOT NULL,
@@ -25,6 +29,11 @@ INSERT INTO klasse (klassekode, klassenavn, studiumkode) VALUES
 ('IT1', 'IT og ledelse 1. år', 'ITLED'),
 ('IT2', 'IT og ledelse 2. år', 'ITLED'),
 ('IT3', 'IT og ledelse 3. år', 'ITLED');
+
+-- Create indexes for better performance
+CREATE INDEX idx_student_klassekode ON student(klassekode);
+CREATE INDEX idx_student_etternavn ON student(etternavn);
+CREATE INDEX idx_klasse_studiumkode ON klasse(studiumkode);
 
 -- Insert sample data for student
 INSERT INTO student (brukernavn, fornavn, etternavn, klassekode) VALUES
