@@ -1,32 +1,27 @@
 <?php
-require_once 'config.php';
+require_once '../config/config.php';
 
 // Handle deletion if requested
-if (isset($_POST['delete']) && isset($_POST['brukernavn'])) {
-    $stmt = $pdo->prepare("DELETE FROM student WHERE brukernavn = ?");
+if (isset($_POST['delete']) && isset($_POST['klassekode'])) {
+    $stmt = $pdo->prepare("DELETE FROM klasse WHERE klassekode = ?");
     try {
-        $stmt->execute([$_POST['brukernavn']]);
-        $message = "Student slettet.";
+        $stmt->execute([$_POST['klassekode']]);
+        $message = "Klasse slettet.";
     } catch (PDOException $e) {
-        $error = "Kunne ikke slette studenten.";
+        $error = "Kan ikke slette klassen. Det kan være studenter registrert i denne klassen.";
     }
 }
 
-// Fetch all students with their class names
-$stmt = $pdo->query("
-    SELECT s.*, k.klassenavn 
-    FROM student s 
-    JOIN klasse k ON s.klassekode = k.klassekode 
-    ORDER BY s.etternavn, s.fornavn
-");
-$studenter = $stmt->fetchAll();
+// Fetch all classes
+$stmt = $pdo->query("SELECT * FROM klasse ORDER BY klassekode");
+$klasser = $stmt->fetchAll();
 ?>
 <!DOCTYPE html>
 <html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vis Studenter</title>
+    <title>Vis Klasser</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
@@ -37,7 +32,7 @@ $studenter = $stmt->fetchAll();
     </nav>
 
     <div class="container">
-        <h2 class="mb-4">Studentoversikt</h2>
+        <h2 class="mb-4">Klasseoversikt</h2>
         
         <?php if (isset($message)): ?>
             <div class="alert alert-success"><?= htmlspecialchars($message) ?></div>
@@ -53,23 +48,21 @@ $studenter = $stmt->fetchAll();
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Brukernavn</th>
-                                <th>Fornavn</th>
-                                <th>Etternavn</th>
-                                <th>Klasse</th>
+                                <th>Klassekode</th>
+                                <th>Klassenavn</th>
+                                <th>Studiumkode</th>
                                 <th>Handling</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <?php foreach ($studenter as $student): ?>
+                            <?php foreach ($klasser as $klasse): ?>
                             <tr>
-                                <td><?= htmlspecialchars($student['brukernavn']) ?></td>
-                                <td><?= htmlspecialchars($student['fornavn']) ?></td>
-                                <td><?= htmlspecialchars($student['etternavn']) ?></td>
-                                <td><?= htmlspecialchars($student['klassenavn']) ?></td>
+                                <td><?= htmlspecialchars($klasse['klassekode']) ?></td>
+                                <td><?= htmlspecialchars($klasse['klassenavn']) ?></td>
+                                <td><?= htmlspecialchars($klasse['studiumkode']) ?></td>
                                 <td>
-                                    <form method="post" style="display: inline;" onsubmit="return confirm('Er du sikker på at du vil slette denne studenten?');">
-                                        <input type="hidden" name="brukernavn" value="<?= htmlspecialchars($student['brukernavn']) ?>">
+                                    <form method="post" style="display: inline;" onsubmit="return confirm('Er du sikker på at du vil slette denne klassen?');">
+                                        <input type="hidden" name="klassekode" value="<?= htmlspecialchars($klasse['klassekode']) ?>">
                                         <button type="submit" name="delete" class="btn btn-danger btn-sm">Slett</button>
                                     </form>
                                 </td>
@@ -82,7 +75,7 @@ $studenter = $stmt->fetchAll();
         </div>
 
         <div class="mt-3">
-            <a href="student_registrer.php" class="btn btn-primary">Registrer ny student</a>
+            <a href="klasse_registrer.php" class="btn btn-primary">Registrer ny klasse</a>
             <a href="index.php" class="btn btn-secondary">Tilbake til forsiden</a>
         </div>
     </div>

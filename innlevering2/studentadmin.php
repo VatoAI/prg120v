@@ -49,11 +49,11 @@
                                 </h5>
                                 <p class="card-text">Administrer klasser og studieprogram.</p>
                                 <div class="d-grid gap-2">
-                                    <a href="klasse_vis.php" class="btn btn-primary">
+                                    <a href="klasse/klasse_vis.php" class="btn btn-primary">
                                         <i class="fas fa-list me-2"></i>
                                         Vis alle klasser
                                     </a>
-                                    <a href="klasse_registrer.php" class="btn btn-outline-primary">
+                                    <a href="klasse/klasse_registrer.php" class="btn btn-outline-primary">
                                         <i class="fas fa-plus me-2"></i>
                                         Registrer ny klasse
                                     </a>
@@ -72,11 +72,11 @@
                                 </h5>
                                 <p class="card-text">Administrer studentinformasjon.</p>
                                 <div class="d-grid gap-2">
-                                    <a href="student_vis.php" class="btn btn-primary">
+                                    <a href="student/student_vis.php" class="btn btn-primary">
                                         <i class="fas fa-list me-2"></i>
                                         Vis alle studenter
                                     </a>
-                                    <a href="student_registrer.php" class="btn btn-outline-primary">
+                                    <a href="student/student_registrer.php" class="btn btn-outline-primary">
                                         <i class="fas fa-user-plus me-2"></i>
                                         Registrer ny student
                                     </a>
