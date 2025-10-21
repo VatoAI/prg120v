@@ -1,23 +1,15 @@
-# Deployment Instructions
+# PRG120V - Innlevering 2
 
-## Database Configuration
+Dette er en database-applikasjon som brukes til å administrere klasser og studenter.
 
-Database credentials for Dokploy:
-- Host: (will be set in Dokploy environment)
-- Database: stpet1155
-- Username: stpet1155
-- Password: d991stpet1155
+## Funksjonalitet
+- Administrere klasser og studieprogram
+- Registrere og administrere studenter
 
-## Environment Variables
-
-Set the following environment variables in Dokploy:
-
-```
-DB_HOST=<mysql-host>
-DB_NAME=stpet1155
-DB_USER=stpet1155
-DB_PASS=d991stpet1155
-```
+## Teknologier
+- PHP for backend logikk
+- MySQL database
+- Bootstrap for brukergrensesnitt
 
 ## SSH Key Configuration
 
