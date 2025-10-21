@@ -1,0 +1,530 @@
+[2025-10-21 13:11:08.081] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=74 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:11:08.289] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:11:08.290] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:11:08.348] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:08.348] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:08.348] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:08.393] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:11:08.398] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=74] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:11:08.399] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=74] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:11:08.400] [global] [info] [service.cc:528] [user-agent= sid=74] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:11:08.404] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_vis.php:HEAD] running linter (uncacheable)
+[2025-10-21 13:11:08.404] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_vis.php:upstream] running linter (uncacheable)
+[2025-10-21 13:11:08.408] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_vis.php:HEAD] linting in progress, waiting (cache-key:e8135945c2ff054819710eaef76d8667)
+[2025-10-21 13:11:08.409] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_vis.php:upstream] running linter (cache-key:1a1ce498894ffee2107301578dd82f73)
+[2025-10-21 13:11:08.499] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_vis.php:HEAD] Linter ran in 94ms
+[2025-10-21 13:11:08.516] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_vis.php:upstream] Linter ran in 111ms
+[2025-10-21 13:11:09.123] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:09.123] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.629] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:10.715] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:innlevering2\klasse\klasse_vis.php:HEAD] Linter ran in 2794ms
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:11.075] [global] [info] [cache.cc:1117] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_vis.php:upstream] Linter ran in 2663ms
+[2025-10-21 13:11:11.286] [global] [info] [service.cc:528] [user-agent= sid=74] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:11:11.288] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=74] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:11:11.289] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=74] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:11:11.292] [global] [info] [service.cc:256] lint session ended sid=74
+[2025-10-21 13:11:11.292] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=74] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:11:11.293] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=74] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:11:11.293] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:11:11.301] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:11:27.826] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:27.826] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:27.869] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:11:27.912] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:innlevering2\klasse\klasse_registrer.php:HEAD] running linter (cache-key:4b778ca8c9958277a82ce0298b24b188)
+[2025-10-21 13:11:27.918] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:27.918] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:27.918] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:27.966] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=75 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:11:27.966] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:11:27.967] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:11:28.035] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:28.035] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:28.035] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:28.083] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:11:28.088] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=75] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:11:28.090] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=75] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:11:28.090] [global] [info] [service.cc:528] [user-agent= sid=75] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:11:28.094] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_registrer.php:HEAD] running linter (uncacheable)
+[2025-10-21 13:11:28.094] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_registrer.php:upstream] running linter (uncacheable)
+[2025-10-21 13:11:28.130] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_registrer.php:upstream] running linter (cache-key:40907f70a9fef5e51c66479db4aec608)
+[2025-10-21 13:11:28.130] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_registrer.php:HEAD] linting in progress, waiting (cache-key:4b778ca8c9958277a82ce0298b24b188)
+[2025-10-21 13:11:28.186] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_registrer.php:HEAD] Linter ran in 92ms
+[2025-10-21 13:11:28.194] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_registrer.php:upstream] Linter ran in 99ms
+[2025-10-21 13:11:28.808] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:28.808] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:30.534] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.534] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.534] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.534] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.535] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.535] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.535] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.535] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.535] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.600] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:30.623] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:innlevering2\klasse\klasse_registrer.php:HEAD] Linter ran in 2709ms
+[2025-10-21 13:11:30.671] [global] [info] [cache.cc:1117] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_registrer.php:upstream] Linter ran in 2538ms
+[2025-10-21 13:11:30.882] [global] [info] [service.cc:528] [user-agent= sid=75] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:11:30.883] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=75] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:11:30.884] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=75] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:11:30.887] [global] [info] [service.cc:256] lint session ended sid=75
+[2025-10-21 13:11:30.887] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=75] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:11:30.888] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=75] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:11:30.888] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:11:30.894] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:11:35.369] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:35.369] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:36.162] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:36.162] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.394] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.394] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.442] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:11:48.496] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.496] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.496] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.500] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:innlevering2\student\student_vis.php:HEAD] running linter (cache-key:0c13531df09b8db245a1955409234b88)
+[2025-10-21 13:11:48.543] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=76 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:11:48.753] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:11:48.754] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:11:48.825] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.825] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.825] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:48.885] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:11:48.890] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=76] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:11:48.892] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=76] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:11:48.893] [global] [info] [service.cc:528] [user-agent= sid=76] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:11:48.898] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student\student_vis.php:HEAD] running linter (uncacheable)
+[2025-10-21 13:11:48.898] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student\student_vis.php:upstream] running linter (uncacheable)
+[2025-10-21 13:11:48.962] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\student\student_vis.php:upstream] running linter (cache-key:41988f06a95626054673047c47db94ed)
+[2025-10-21 13:11:48.963] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\student\student_vis.php:HEAD] linting in progress, waiting (cache-key:0c13531df09b8db245a1955409234b88)
+[2025-10-21 13:11:48.997] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\student\student_vis.php:HEAD] Linter ran in 98ms
+[2025-10-21 13:11:49.010] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\student\student_vis.php:upstream] Linter ran in 112ms
+[2025-10-21 13:11:49.613] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:49.613] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:11:51.246] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.247] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.247] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.247] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.247] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.247] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.247] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.247] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.247] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.330] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:innlevering2\student\student_vis.php:HEAD] Linter ran in 2827ms
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.611] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:11:51.679] [global] [info] [cache.cc:1117] [on-demand] [trufflehog:lint:innlevering2\student\student_vis.php:upstream] Linter ran in 2713ms
+[2025-10-21 13:11:51.886] [global] [info] [service.cc:528] [user-agent= sid=76] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:11:51.887] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=76] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:11:51.888] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=76] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:11:51.891] [global] [info] [service.cc:256] lint session ended sid=76
+[2025-10-21 13:11:51.891] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=76] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:11:51.891] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=76] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:11:51.891] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:11:51.898] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:12:11.760] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:11.760] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:11.824] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:12:11.850] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:innlevering2\student\student_registrer.php:HEAD] running linter (cache-key:c645daec7467f3ba7c4648bc5a331b44)
+[2025-10-21 13:12:11.879] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:11.879] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:11.879] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:11.921] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=77 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:12:12.129] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:12:12.129] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:12:12.183] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:12.183] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:12.183] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:12.227] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:12:12.232] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=77] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:12:12.234] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=77] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:12:12.235] [global] [info] [service.cc:528] [user-agent= sid=77] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:12:12.239] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student\student_registrer.php:HEAD] running linter (uncacheable)
+[2025-10-21 13:12:12.239] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student\student_registrer.php:upstream] running linter (uncacheable)
+[2025-10-21 13:12:12.244] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\student\student_registrer.php:HEAD] linting in progress, waiting (cache-key:c645daec7467f3ba7c4648bc5a331b44)
+[2025-10-21 13:12:12.244] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\student\student_registrer.php:upstream] running linter (cache-key:66683debdd443fba809c937e72990b0e)
+[2025-10-21 13:12:12.358] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\student\student_registrer.php:HEAD] Linter ran in 119ms
+[2025-10-21 13:12:12.365] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\student\student_registrer.php:upstream] Linter ran in 126ms
+[2025-10-21 13:12:12.955] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:12.955] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.490] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.556] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:innlevering2\student\student_registrer.php:HEAD] Linter ran in 2704ms
+[2025-10-21 13:12:14.766] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.766] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.766] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.766] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.766] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.766] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.767] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.767] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.767] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 13:12:14.827] [global] [info] [cache.cc:1117] [on-demand] [trufflehog:lint:innlevering2\student\student_registrer.php:upstream] Linter ran in 2581ms
+[2025-10-21 13:12:15.040] [global] [info] [service.cc:528] [user-agent= sid=77] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:12:15.041] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=77] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:12:15.041] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=77] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:12:15.043] [global] [info] [service.cc:256] lint session ended sid=77
+[2025-10-21 13:12:15.043] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=77] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:12:15.044] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=77] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:12:15.044] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:12:15.053] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:23.922] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:13:23.974] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:23.974] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:23.974] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:24.013] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=78 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:13:24.215] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:13:24.216] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:13:24.290] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:24.290] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:24.290] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:24.342] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:13:24.347] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=78] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:13:24.348] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=78] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:13:24.349] [global] [info] [service.cc:528] [user-agent= sid=78] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:13:24.355] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_vis.php:HEAD] running linter (uncacheable)
+[2025-10-21 13:13:24.355] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_vis.php:upstream] running linter (uncacheable)
+[2025-10-21 13:13:24.361] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_vis.php:upstream] already cached, not running linter
+[2025-10-21 13:13:24.363] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_vis.php:HEAD] already cached, not running linter
+[2025-10-21 13:13:24.377] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:24.377] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:24.449] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_vis.php:HEAD] Linter ran in 94ms
+[2025-10-21 13:13:24.461] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:innlevering2\klasse\klasse_vis.php:HEAD] already cached, not running linter
+[2025-10-21 13:13:24.468] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_vis.php:upstream] Linter ran in 112ms
+[2025-10-21 13:13:24.690] [global] [info] [service.cc:528] [user-agent= sid=78] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:13:24.692] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=78] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:13:24.693] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=78] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:13:24.698] [global] [info] [service.cc:256] lint session ended sid=78
+[2025-10-21 13:13:24.699] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=78] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:13:24.699] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=78] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:24.700] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:13:24.716] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:25.068] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:25.068] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:25.089] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:13:25.138] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:innlevering2\klasse\klasse_registrer.php:HEAD] already cached, not running linter
+[2025-10-21 13:13:25.141] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:25.141] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:25.141] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:25.164] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=79 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:13:25.376] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:13:25.377] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:13:25.428] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:25.428] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:25.428] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:25.461] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:13:25.465] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=79] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:13:25.466] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=79] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:13:25.466] [global] [info] [service.cc:528] [user-agent= sid=79] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:13:25.470] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_registrer.php:HEAD] running linter (uncacheable)
+[2025-10-21 13:13:25.470] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_registrer.php:upstream] running linter (uncacheable)
+[2025-10-21 13:13:25.476] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_registrer.php:HEAD] already cached, not running linter
+[2025-10-21 13:13:25.476] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:innlevering2\klasse\klasse_registrer.php:upstream] already cached, not running linter
+[2025-10-21 13:13:25.537] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_registrer.php:HEAD] Linter ran in 66ms
+[2025-10-21 13:13:25.548] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\klasse\klasse_registrer.php:upstream] Linter ran in 77ms
+[2025-10-21 13:13:25.737] [global] [info] [service.cc:528] [user-agent= sid=79] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:13:25.737] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=79] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:13:25.739] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=79] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:13:25.743] [global] [info] [service.cc:256] lint session ended sid=79
+[2025-10-21 13:13:25.743] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=79] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:13:25.744] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=79] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:25.744] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:13:25.763] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:26.147] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.147] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.368] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:13:26.447] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.447] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.447] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.484] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=80 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:13:26.689] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:13:26.689] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:13:26.747] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.747] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.747] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.781] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:13:26.785] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=80] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:13:26.786] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=80] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:13:26.787] [global] [info] [service.cc:528] [user-agent= sid=80] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:13:26.791] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student\student_vis.php:HEAD] running linter (uncacheable)
+[2025-10-21 13:13:26.791] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student\student_vis.php:upstream] running linter (uncacheable)
+[2025-10-21 13:13:26.798] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:innlevering2\student\student_vis.php:upstream] already cached, not running linter
+[2025-10-21 13:13:26.799] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.799] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:26.800] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:innlevering2\student\student_vis.php:HEAD] already cached, not running linter
+[2025-10-21 13:13:26.877] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\student\student_vis.php:HEAD] Linter ran in 86ms
+[2025-10-21 13:13:26.879] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:innlevering2\student\student_vis.php:HEAD] already cached, not running linter
+[2025-10-21 13:13:26.889] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\student\student_vis.php:upstream] Linter ran in 98ms
+[2025-10-21 13:13:27.094] [global] [info] [service.cc:528] [user-agent= sid=80] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:13:27.095] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=80] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:13:27.098] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=80] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:13:27.102] [global] [info] [service.cc:256] lint session ended sid=80
+[2025-10-21 13:13:27.102] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=80] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:13:27.102] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=80] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:27.102] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:13:27.109] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:27.489] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:27.489] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.249] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:13:28.300] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.300] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.300] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.330] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=81 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:13:28.545] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:13:28.546] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:13:28.606] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.606] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.606] [global] [info] [session_context.cc:167] Making commit info with id: 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.650] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:13:28.655] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=81] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:13:28.657] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=81] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:13:28.657] [global] [info] [service.cc:528] [user-agent= sid=81] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:13:28.663] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student\student_registrer.php:upstream] running linter (uncacheable)
+[2025-10-21 13:13:28.663] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student\student_registrer.php:HEAD] running linter (uncacheable)
+[2025-10-21 13:13:28.675] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:innlevering2\student\student_registrer.php:upstream] already cached, not running linter
+[2025-10-21 13:13:28.679] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:innlevering2\student\student_registrer.php:HEAD] already cached, not running linter
+[2025-10-21 13:13:28.728] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.729] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:28.837] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:innlevering2\student\student_registrer.php:HEAD] already cached, not running linter
+[2025-10-21 13:13:28.842] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\student\student_registrer.php:HEAD] Linter ran in 178ms
+[2025-10-21 13:13:28.853] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:innlevering2\student\student_registrer.php:upstream] Linter ran in 190ms
+[2025-10-21 13:13:29.059] [global] [info] [service.cc:528] [user-agent= sid=81] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:13:29.060] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=81] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:13:29.062] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=81] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:13:29.065] [global] [info] [service.cc:256] lint session ended sid=81
+[2025-10-21 13:13:29.065] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=81] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:13:29.065] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=81] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:29.065] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:13:29.075] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:13:29.461] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:29.461] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:31.209] [global] [info] [git_source_control.cc:517] Computing merge base between 6c0b55e526d85dfb0efcbdbd2407782791de7e86 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:31.209] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:35.051] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:35.075] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 6c0b55e526d85dfb0efcbdbd2407782791de7e86
+[2025-10-21 13:13:37.398] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:13:37.399] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:14:36.421] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:14:36.421] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:14:37.562] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:14:37.563] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:00.757] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:17:00.825] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:00.825] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:00.825] [global] [info] [session_context.cc:167] Making commit info with id: 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:00.870] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=82 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:17:01.076] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:17:01.077] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:17:01.203] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:01.203] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:01.203] [global] [info] [session_context.cc:167] Making commit info with id: 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:01.237] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:17:01.243] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=82] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:17:01.247] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=82] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:17:01.248] [global] [info] [service.cc:528] [user-agent= sid=82] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:17:01.456] [global] [info] [service.cc:528] [user-agent= sid=82] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:17:01.456] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=82] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:17:01.457] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=82] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:17:01.460] [global] [info] [service.cc:256] lint session ended sid=82
+[2025-10-21 13:17:01.460] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=82] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:17:01.461] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=82] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:17:01.461] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:17:01.464] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:17:24.899] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:24.899] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:26.338] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:26.338] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:38.592] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:38.592] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:50.605] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:50.605] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:51.844] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:51.845] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:52.331] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:17:52.391] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:52.391] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:52.391] [global] [info] [session_context.cc:167] Making commit info with id: 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:52.409] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=83 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:17:52.614] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:17:52.616] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:17:52.685] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:52.686] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:52.686] [global] [info] [session_context.cc:167] Making commit info with id: 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:17:52.713] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:17:52.717] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=83] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:17:52.719] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=83] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:17:52.719] [global] [info] [service.cc:528] [user-agent= sid=83] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:17:52.720] [global] [info] [service.cc:528] [user-agent= sid=83] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:17:52.720] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=83] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:17:52.721] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=83] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:17:52.726] [global] [info] [service.cc:256] lint session ended sid=83
+[2025-10-21 13:17:52.726] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=83] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:17:52.727] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=83] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:17:52.727] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:17:52.732] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:18:02.343] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:02.343] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:03.700] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:03.700] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:15.872] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:15.872] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:28.062] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:28.062] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:28.846] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:28.846] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:29.472] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:29.472] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:30.339] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:18:30.339] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:19:20.699] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:19:20.699] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:20:38.766] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:20:38.766] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:20:39.581] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:20:39.581] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:33.150] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:33.150] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:38.333] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 13:21:38.405] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:38.405] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:38.405] [global] [info] [session_context.cc:167] Making commit info with id: 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:38.439] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=84 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 13:21:38.652] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 13:21:38.653] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 13:21:38.750] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:38.750] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:38.750] [global] [info] [session_context.cc:167] Making commit info with id: 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:38.778] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 13:21:38.784] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=84] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 13:21:38.785] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=84] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 13:21:38.785] [global] [info] [service.cc:528] [user-agent= sid=84] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 13:21:38.786] [global] [info] [service.cc:528] [user-agent= sid=84] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 13:21:38.786] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=84] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 13:21:38.787] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=84] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 13:21:38.791] [global] [info] [service.cc:256] lint session ended sid=84
+[2025-10-21 13:21:38.791] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=84] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:21:38.792] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=84] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:21:38.792] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:21:38.796] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:21:50.377] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:21:50.377] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:22:04.394] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:22:04.394] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:22:16.661] [global] [info] [git_source_control.cc:517] Computing merge base between a73ec40cc259bebb6ed034b4736d657209836729 and a73ec40cc259bebb6ed034b4736d657209836729
+[2025-10-21 13:22:16.661] [global] [info] [git_source_control.cc:519] Resolved divergent commit as a73ec40cc259bebb6ed034b4736d657209836729
+[2025-10-21 13:22:17.420] [global] [info] [notification_manager.cc:84] Reading from C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 13:22:17.421] [global] [info] [service.cc:162] Writing notification state to file
+[2025-10-21 13:22:50.247] [global] [info] [git_source_control.cc:517] Computing merge base between a73ec40cc259bebb6ed034b4736d657209836729 and a73ec40cc259bebb6ed034b4736d657209836729
+[2025-10-21 13:22:50.248] [global] [info] [git_source_control.cc:519] Resolved divergent commit as a73ec40cc259bebb6ed034b4736d657209836729
+[2025-10-21 13:23:02.472] [global] [info] [git_source_control.cc:517] Computing merge base between 2e5ed414528af5e0c5340e692a18a61d0f61d182 and 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:02.472] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:05.687] [global] [info] [git_source_control.cc:517] Computing merge base between 2e5ed414528af5e0c5340e692a18a61d0f61d182 and 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:05.687] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:13.269] [global] [info] [git_source_control.cc:517] Computing merge base between 2e5ed414528af5e0c5340e692a18a61d0f61d182 and 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:13.269] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:23.242] [global] [info] [git_source_control.cc:517] Computing merge base between 2e5ed414528af5e0c5340e692a18a61d0f61d182 and 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:23.242] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:39.698] [global] [info] [git_source_control.cc:517] Computing merge base between 2e5ed414528af5e0c5340e692a18a61d0f61d182 and 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:39.698] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2e5ed414528af5e0c5340e692a18a61d0f61d182
+[2025-10-21 13:23:41.006] [global] [info] [git_source_control.cc:517] Computing merge base between 2e5ed414528af5e0c5340e692a18a61d0f61d182 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:23:41.043] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-10-21 13:28:03.034] [global] [info] [git_source_control.cc:517] Computing merge base between 2e5ed414528af5e0c5340e692a18a61d0f61d182 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:28:03.035] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-10-21 13:31:03.768] [global] [info] [git_source_control.cc:517] Computing merge base between 2e5ed414528af5e0c5340e692a18a61d0f61d182 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:03.769] [global] [info] [git_source_control.cc:522] failed to compute merge base - no merge base found
+[2025-10-21 13:31:28.703] [global] [info] [service.cc:108] CLI version change; do not run file-triggered actions
+[2025-10-21 13:31:28.704] [global] [info] [service.cc:36] CLI version change; do not update tools
+[2025-10-21 13:31:28.707] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:28.707] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:28.733] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:28.733] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:28.733] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:28.735] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:29.185] [global] [info] [service.cc:256] lint session ended sid=45
+[2025-10-21 13:31:29.185] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=45] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:31:29.188] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:29.189] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=45] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:31:29.189] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:31:29.190] [global] [info] [service.cc:256] lint session ended sid=46
+[2025-10-21 13:31:29.190] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=46] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:31:29.212] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:31:29.212] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:29.213] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=46] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:31:29.213] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 13:31:29.228] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 13:31:29.692] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::actions::Service::GetNotificationsStream(grpc::ServerContext *, const proto::v1::GetNotificationsStreamRequest *, grpc::ServerWriter<proto::v1::GetNotificationsStreamResponse> *) status=OK
+[2025-10-21 13:31:30.042] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:30.042] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:30.043] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:30.043] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:30.044] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:30.044] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:30.714] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:30.714] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:30.714] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:30.715] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:30.715] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:30.715] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:31.775] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:31.775] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:31.785] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:31.785] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:31.785] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:31.786] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:32.296] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:32.296] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06
+[2025-10-21 13:31:32.300] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:32.300] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:32.301] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:32.301] [global] [info] [app_context.cc:392] TryGetTrunkConfigPb failed
+[2025-10-21 13:31:42.254] [global] [info] [git_source_control.cc:517] Computing merge base between 93f71f3885303ffdb4a80cdb47a3013ceb1cdd06 and 2e5ed414528af5e0c5340e692a18a61d0f61d182

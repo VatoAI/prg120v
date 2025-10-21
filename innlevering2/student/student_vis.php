@@ -1,5 +1,5 @@
 <?php
-require_once '../config/config.php';
+require_once dirname(__FILE__) . '/../config/config.php';
 
 // Handle deletion if requested
 if (isset($_POST['delete']) && isset($_POST['brukernavn'])) {

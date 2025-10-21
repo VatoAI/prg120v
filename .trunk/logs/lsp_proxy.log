@@ -1,0 +1,6 @@
+[10-21 01:57:24] [login.cc:52] GetUserRequest failed with status 16: No session provided 
+[10-21 02:06:23] [client.cc:19] GRPC Failed (error code INTERNAL): Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
+[10-21 02:06:23] [submission_buffer.cc:179] diagnostics buffer 15: Submission failed: Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
+[10-21 02:06:23] [shared_server_context.hh:133] Message processing failed: Unable to detect an upstream commit on this branch: Failed to compute a merge base for this branch - this could be due to a shallow checkout, or if this is an orphaned branch.
+[10-21 03:17:13] [login.cc:52] GetUserRequest failed with status 16: No session provided 
+[10-21 12:37:17] [login.cc:52] GetUserRequest failed with status 16: No session provided 

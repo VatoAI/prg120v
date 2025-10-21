@@ -1,0 +1,521 @@
+[2025-10-21 03:17:53.861] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:53.861] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:53.861] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:53.861] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:53.861] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:53.861] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:54.070] [global] [info] [cache.cc:1117] [on-demand] [prettier:format:innlevering2\DEPLOY.md:HEAD] Linter ran in 1573ms
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.381] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:17:56.488] [global] [info] [cache.cc:1117] [on-demand] [trufflehog:lint:config.php... (13 files):HEAD] Linter ran in 3969ms
+[2025-10-21 03:17:56.756] [global] [info] [service.cc:528] [user-agent= sid=41] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 03:17:56.766] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=41] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 03:17:56.767] [global] [info] [runner.cc:1128] Git-ignored path: .trunk\configs\.markdownlint.yaml
+[2025-10-21 03:17:56.768] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=41] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 03:17:56.773] [global] [info] [service.cc:256] lint session ended sid=41
+[2025-10-21 03:17:56.773] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=41] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:17:56.774] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=41] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:17:56.774] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:17:56.780] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:18:46.659] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 03:18:46.749] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 03:18:46.749] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 03:18:46.749] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 03:18:46.779] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=42 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 03:18:46.781] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 03:18:46.782] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 03:18:46.844] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 03:18:46.844] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 03:18:46.844] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 03:18:46.874] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 03:18:46.879] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=42] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 03:18:46.880] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=42] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 03:18:46.881] [global] [info] [service.cc:528] [user-agent= sid=42] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 03:18:46.888] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:index.html:HEAD] running linter (uncacheable)
+[2025-10-21 03:18:46.888] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:index.html:upstream] running linter (uncacheable)
+[2025-10-21 03:18:46.896] [global] [info] [cache.cc:978] [on-demand] [prettier:format:index.html:HEAD] running linter (uncacheable)
+[2025-10-21 03:18:46.922] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:index.html:HEAD] running linter (cache-key:2aac9b218623741ee2ecfba1f307f7bb)
+[2025-10-21 03:18:46.996] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:index.html:HEAD] Linter ran in 108ms
+[2025-10-21 03:18:47.004] [global] [info] [cache.cc:934] [on-demand] [trufflehog:lint:index.html:upstream] already cached, not running linter
+[2025-10-21 03:18:47.013] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:index.html:upstream] Linter ran in 125ms
+[2025-10-21 03:18:47.510] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 03:18:47.510] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 03:18:47.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.553] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:47.651] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:index.html:HEAD] linting in progress, waiting (cache-key:2aac9b218623741ee2ecfba1f307f7bb)
+[2025-10-21 03:18:47.740] [global] [info] [runner.cc:106] Writing prettier predecessor error to C:\Users\stian\VatoAI-prg120v\.trunk\out\4yazF.yaml
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.080] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 03:18:50.145] [global] [info] [cache.cc:1117] [on-demand] [trufflehog:lint:index.html:HEAD] Linter ran in 3220ms
+[2025-10-21 03:18:50.155] [global] [info] [runner.cc:106] Writing prettier predecessor error to C:\Users\stian\VatoAI-prg120v\.trunk\out\30hUP.yaml
+[2025-10-21 03:18:50.359] [global] [info] [service.cc:528] [user-agent= sid=42] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 03:18:50.360] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=42] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 03:18:50.362] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=42] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 03:18:50.369] [global] [info] [service.cc:256] lint session ended sid=42
+[2025-10-21 03:18:50.369] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=42] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:18:50.370] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=42] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:18:50.370] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:18:50.375] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:19:22.203] [global] [info] [service.cc:256] lint session ended sid=36
+[2025-10-21 03:19:22.203] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=36] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:19:22.204] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=36] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:19:22.204] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:19:22.205] [global] [info] [service.cc:256] lint session ended sid=37
+[2025-10-21 03:19:22.205] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=37] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:19:22.209] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:19:22.211] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=37] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:19:22.212] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:19:22.217] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:19:22.435] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::actions::Service::GetNotificationsStream(grpc::ServerContext *, const proto::v1::GetNotificationsStreamRequest *, grpc::ServerWriter<proto::v1::GetNotificationsStreamResponse> *) status=OK
+[2025-10-21 03:19:43.436] [global] [info] [service.cc:256] lint session ended sid=35
+[2025-10-21 03:19:43.436] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=35] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:19:43.437] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=35] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:19:43.437] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:19:43.444] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:19:43.446] [global] [info] [service.cc:256] lint session ended sid=34
+[2025-10-21 03:19:43.446] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=34] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:19:43.446] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=34] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 03:19:43.447] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 03:19:43.452] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 04:02:12.562] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 04:02:12.944] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 04:02:12.946] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 04:02:12.947] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 04:02:13.084] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 04:02:13.826] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 04:02:13.831] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 04:02:13.831] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 04:02:13.831] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 04:02:13.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 04:02:13.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 04:02:13.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 04:02:15.026] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 04:02:15.047] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 04:02:15.253] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 04:02:15.972] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 05:02:12.555] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 05:02:12.927] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 05:02:12.929] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 05:02:12.930] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 05:02:13.075] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 05:02:13.815] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 05:02:13.817] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 05:02:13.817] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 05:02:13.817] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 05:02:13.818] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 05:02:13.818] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 05:02:13.818] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 05:02:14.044] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 05:02:15.121] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 05:02:15.330] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 05:02:16.049] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 06:02:12.541] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 06:02:12.887] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 06:02:12.890] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 06:02:12.890] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 06:02:13.000] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 06:02:13.768] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 06:02:13.771] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 06:02:13.771] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 06:02:13.771] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 06:02:13.772] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 06:02:13.772] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 06:02:13.772] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 06:02:14.377] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 06:02:15.278] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 06:02:15.478] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 06:02:16.161] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 07:02:12.553] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 07:02:12.916] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 07:02:12.917] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 07:02:12.919] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 07:02:13.026] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 07:02:13.804] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 07:02:13.807] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 07:02:13.807] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 07:02:13.807] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 07:02:13.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 07:02:13.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 07:02:13.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 07:02:14.970] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 07:02:15.041] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 07:02:15.245] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 07:02:15.990] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 08:02:12.548] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 08:02:13.131] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 08:02:13.132] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 08:02:13.133] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 08:02:13.274] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 08:02:14.056] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 08:02:14.058] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 08:02:14.059] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 08:02:14.059] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 08:02:14.059] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 08:02:14.059] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 08:02:14.059] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 08:02:14.059] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 08:02:14.966] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 08:02:27.457] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 08:02:28.237] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 09:13:07.393] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 09:13:09.284] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 09:13:09.291] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 09:13:09.298] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 09:13:09.470] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 09:13:10.494] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 09:13:10.498] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 09:13:10.501] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 09:13:10.502] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 09:13:10.502] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 09:13:10.504] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 09:13:10.504] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 09:13:10.505] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 09:13:11.948] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 09:13:16.305] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 09:13:17.120] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 10:02:12.548] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 10:02:14.318] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 10:02:14.325] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 10:02:14.333] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 10:02:14.566] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 10:02:15.586] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 10:02:15.591] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 10:02:15.594] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 10:02:15.594] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 10:02:15.594] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 10:02:15.596] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 10:02:15.596] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 10:02:15.596] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 10:02:17.182] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 10:02:21.376] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 10:02:22.220] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 11:02:12.627] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 11:02:14.395] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 11:02:14.401] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 11:02:14.406] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 11:02:14.784] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 11:02:15.635] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 11:02:15.640] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 11:02:15.642] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 11:02:15.643] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 11:02:15.643] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 11:02:15.646] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 11:02:15.646] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 11:02:15.646] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 11:02:17.235] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 11:02:21.536] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 11:02:22.416] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 12:02:12.575] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2025-10-21 12:02:14.273] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 12:02:14.281] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 12:02:14.288] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 12:02:14.491] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 12:02:15.564] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 12:02:15.572] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:02:15.572] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:02:15.573] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:02:15.574] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:02:15.574] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:02:15.574] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:02:17.847] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 12:02:18.054] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 12:02:20.978] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 12:02:21.793] [global] [info] [notification_manager.cc:37] Writing to C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 12:36:38.911] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:36:38.912] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:36:40.032] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:36:40.033] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:36:42.674] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:36:42.674] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:36:58.897] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:36:58.897] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:00.008] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:00.008] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:15.323] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 12:37:15.382] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:15.382] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:15.382] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:15.406] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=43 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 12:37:15.619] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 12:37:15.621] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 12:37:15.675] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:15.675] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:15.675] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:15.701] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=44 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 12:37:15.904] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 12:37:17.374] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 12:37:17.447] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:17.447] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:17.447] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:17.471] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=45 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 12:37:17.679] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 12:37:17.679] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 12:37:17.779] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:17.779] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:17.779] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:17.819] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=46 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 12:37:18.024] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 12:37:18.024] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 12:37:18.026] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::actions::Service::GetNotificationsStream(grpc::ServerContext *, const proto::v1::GetNotificationsStreamRequest *, grpc::ServerWriter<proto::v1::GetNotificationsStreamResponse> *)
+[2025-10-21 12:37:18.026] [global] [info] [notification_manager.cc:84] Reading from C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-share-with-everyone.yaml
+[2025-10-21 12:37:18.035] [global] [info] [notification_manager.cc:84] Reading from C:\Users\stian\VatoAI-prg120v\.trunk\notifications\trunk-upgrade.yaml
+[2025-10-21 12:37:18.043] [global] [info] [service.cc:162] Writing notification state to file
+[2025-10-21 12:37:18.076] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.076] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.076] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.096] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=47 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 12:37:18.305] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 12:37:18.308] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 12:37:18.443] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.444] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.444] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.592] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 12:37:18.678] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 12:37:18.683] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=47] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 12:37:18.683] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=47] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 12:37:18.685] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=47] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 12:37:18.687] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=47] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 12:37:18.815] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.815] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.815] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:18.848] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=48 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 12:37:19.054] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 12:37:19.055] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 12:37:19.057] [global] [info] [service.cc:335] [user-agent= sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::CancelFiles(grpc::ServerContext *, const proto::v1::CancelFilesRequest *, proto::v1::CancelFilesResponse *)
+[2025-10-21 12:37:19.063] [global] [info] [service.cc:335] [user-agent= sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::CancelFiles(grpc::ServerContext *, const proto::v1::CancelFilesRequest *, proto::v1::CancelFilesResponse *) status=OK
+[2025-10-21 12:37:19.079] [global] [info] [service.cc:528] [user-agent= sid=47] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 12:37:19.130] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:index.html:HEAD] running linter (uncacheable)
+[2025-10-21 12:37:19.130] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:index.html:upstream] running linter (uncacheable)
+[2025-10-21 12:37:19.133] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:19.133] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:19.133] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:19.201] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 12:37:19.201] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=48] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 12:37:19.201] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=48] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 12:37:19.202] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=48] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 12:37:19.203] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=48] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 12:37:19.203] [global] [info] [service.cc:335] [user-agent= sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::CancelFiles(grpc::ServerContext *, const proto::v1::CancelFilesRequest *, proto::v1::CancelFilesResponse *)
+[2025-10-21 12:37:19.204] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:index.html:upstream], removing from cache
+[2025-10-21 12:37:19.208] [global] [info] [service.cc:335] [user-agent= sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::CancelFiles(grpc::ServerContext *, const proto::v1::CancelFilesRequest *, proto::v1::CancelFilesResponse *) status=OK
+[2025-10-21 12:37:19.209] [global] [info] [service.cc:528] [user-agent= sid=48] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 12:37:19.216] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:index.html:HEAD], removing from cache
+[2025-10-21 12:37:19.240] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:index.html:upstream] running linter (cache-key:822793e0821954f6c43a8c9f6baaf9ab)
+[2025-10-21 12:37:19.240] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:index.html:HEAD] running linter (cache-key:2aac9b218623741ee2ecfba1f307f7bb)
+[2025-10-21 12:37:19.240] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:index.html:upstream] linting in progress, waiting (cache-key:822793e0821954f6c43a8c9f6baaf9ab)
+[2025-10-21 12:37:29.242] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 12:37:29.341] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:29.341] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:29.341] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:37:29.441] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=49 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 12:37:29.655] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 12:37:29.685] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2025-10-21 12:37:29.686] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2025-10-21 12:37:29.687] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2025-10-21 12:37:29.916] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-10-21 12:37:30.769] [global] [info] [release.cc:131] Retrieved 7 linter-version pairs from ReleaseVersionService
+[2025-10-21 12:37:30.778] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:30.778] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:30.778] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:30.778] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:30.778] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:30.778] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:32.027] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\hadolint\.hadolint.yaml
+[2025-10-21 12:37:32.137] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\stian\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.3-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.022] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:37:36.532] [global] [info] [cache.cc:1117] [on-demand] [trufflehog:lint:index.html:upstream] Linter ran in 17290ms
+[2025-10-21 12:37:36.745] [global] [info] [service.cc:528] [user-agent= sid=48] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 12:37:36.745] [global] [info] [service.cc:528] [user-agent= sid=47] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 12:37:36.748] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=48] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 12:37:36.748] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=47] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 12:37:36.749] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=48] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 12:37:36.750] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=47] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 12:37:36.754] [global] [info] [service.cc:256] lint session ended sid=48
+[2025-10-21 12:37:36.754] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=48] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 12:37:36.755] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=48] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 12:37:36.755] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 12:37:36.755] [global] [info] [service.cc:256] lint session ended sid=47
+[2025-10-21 12:37:36.755] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=47] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 12:37:36.759] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 12:37:36.760] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=47] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 12:37:36.760] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 12:37:36.767] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 12:37:46.744] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-10-21 12:37:46.747] [global] [info] [service.cc:256] lint session ended sid=49
+[2025-10-21 12:37:46.747] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=49] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 12:37:46.748] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=49] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 12:37:46.748] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 12:37:46.758] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 12:39:47.113] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:39:47.113] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:39:47.964] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:39:47.964] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:40:05.079] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:40:05.079] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:40:05.859] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:40:05.859] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:36.035] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2025-10-21 12:42:36.099] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:36.099] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:36.099] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:36.120] [global] [info] [service.cc:227] [user-agent=lsp-proxy sid=n/a] lint session created sid=50 with the following options:
+cache_enabled: true, num_jobs: 4, session_type: 4, client_id: lsp-proxy, scope: 1
+[2025-10-21 12:42:36.320] [global] [info] [service.cc:145] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2025-10-21 12:42:36.321] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2025-10-21 12:42:36.384] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:36.384] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:36.384] [global] [info] [session_context.cc:167] Making commit info with id: 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:36.407] [global] [info] [service.cc:439] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2025-10-21 12:42:36.410] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=50] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2025-10-21 12:42:36.421] [global] [info] [service.cc:409] [user-agent=lsp-proxy sid=50] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2025-10-21 12:42:36.422] [global] [info] [service.cc:528] [user-agent= sid=50] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:config.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:index.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\DEPLOY.md:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\config.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\index.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse_registrer.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse_vis.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\setup.sql:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student_registrer.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student_vis.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\test_db.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:tema06\eksempler\db-tilkobling-dokploy.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.530] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:tema06\eksempler\dynamiske-funksjoner.php:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:config.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:index.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\DEPLOY.md:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\config.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\index.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse_registrer.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\klasse_vis.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\setup.sql:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student_registrer.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\student_vis.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:innlevering2\test_db.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:tema06\eksempler\db-tilkobling-dokploy.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:tema06\eksempler\dynamiske-funksjoner.php:upstream] running linter (uncacheable)
+[2025-10-21 12:42:36.548] [global] [info] [cache.cc:978] [on-demand] [prettier:format:innlevering2\DEPLOY.md:HEAD] running linter (uncacheable)
+[2025-10-21 12:42:36.611] [global] [info] [cache.cc:934] [on-demand] [markdownlint:lint:innlevering2\DEPLOY.md:HEAD] already cached, not running linter
+[2025-10-21 12:42:36.720] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:config.php:HEAD], removing from cache
+[2025-10-21 12:42:36.720] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:config.php:HEAD] running linter (cache-key:b3c755ea7ccb69ec3e5635e8a97a7b78)
+[2025-10-21 12:42:36.737] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:index.php:HEAD], removing from cache
+[2025-10-21 12:42:36.738] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:index.php:HEAD] running linter (cache-key:a01d785194384390bd38b02cb938eb09)
+[2025-10-21 12:42:36.755] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\DEPLOY.md:HEAD], removing from cache
+[2025-10-21 12:42:36.755] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\DEPLOY.md:HEAD] running linter (cache-key:0f2ec0255257690f37e8b97859710afe)
+[2025-10-21 12:42:36.780] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\config.php:HEAD], removing from cache
+[2025-10-21 12:42:36.780] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\config.php:HEAD] running linter (cache-key:4078eba981329ef6d92616b6da1df875)
+[2025-10-21 12:42:36.784] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\index.php:HEAD], removing from cache
+[2025-10-21 12:42:36.784] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\index.php:HEAD] running linter (cache-key:694aadd1a009725ae9352ddbabc14b7d)
+[2025-10-21 12:42:36.787] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\klasse_registrer.php:HEAD], removing from cache
+[2025-10-21 12:42:36.787] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\klasse_registrer.php:HEAD] running linter (cache-key:b5fc8b10b9debbc906c36d4d5ebb2e5e)
+[2025-10-21 12:42:36.791] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\klasse_vis.php:HEAD], removing from cache
+[2025-10-21 12:42:36.792] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\klasse_vis.php:HEAD] running linter (cache-key:aec525cd4e29e6c9b03a21666ac6b27e)
+[2025-10-21 12:42:36.794] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\setup.sql:HEAD], removing from cache
+[2025-10-21 12:42:36.795] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\setup.sql:HEAD] running linter (cache-key:e34f27b6dbe4b1a3b3faa0b5c758cd4a)
+[2025-10-21 12:42:36.799] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\student_registrer.php:HEAD], removing from cache
+[2025-10-21 12:42:36.800] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\student_registrer.php:HEAD] running linter (cache-key:ac659893b444ced0c65457256e9934b1)
+[2025-10-21 12:42:36.808] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\student_vis.php:HEAD], removing from cache
+[2025-10-21 12:42:36.808] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\student_vis.php:HEAD] running linter (cache-key:e4516e13b4278bdd16640693212e456e)
+[2025-10-21 12:42:36.812] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:innlevering2\test_db.php:HEAD], removing from cache
+[2025-10-21 12:42:36.813] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:innlevering2\test_db.php:HEAD] running linter (cache-key:a793f3874dc9f3dd61dc0862ce8745c6)
+[2025-10-21 12:42:36.830] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:tema06\eksempler\db-tilkobling-dokploy.php:HEAD], removing from cache
+[2025-10-21 12:42:36.832] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:tema06\eksempler\db-tilkobling-dokploy.php:HEAD] running linter (cache-key:e3bd2c7e4330651153709e4ec6047c87)
+[2025-10-21 12:42:36.851] [global] [info] [cache.cc:939] Unable to deserialize [on-demand] [trufflehog:lint:tema06\eksempler\dynamiske-funksjoner.php:HEAD], removing from cache
+[2025-10-21 12:42:36.851] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:tema06\eksempler\dynamiske-funksjoner.php:HEAD] running linter (cache-key:3e9f2addf99db4efca968a7a41e73198)
+[2025-10-21 12:42:37.248] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:config.php... (13 files):upstream] Linter ran in 716ms
+[2025-10-21 12:42:37.249] [global] [info] [cache.cc:1117] [on-demand] [git-diff-check:lint:config.php... (13 files):HEAD] Linter ran in 719ms
+[2025-10-21 12:42:37.287] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:config.php:upstream] linting in progress, waiting (cache-key:b3c755ea7ccb69ec3e5635e8a97a7b78)
+[2025-10-21 12:42:37.287] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:index.php:upstream] linting in progress, waiting (cache-key:a01d785194384390bd38b02cb938eb09)
+[2025-10-21 12:42:37.287] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\DEPLOY.md:upstream] linting in progress, waiting (cache-key:0f2ec0255257690f37e8b97859710afe)
+[2025-10-21 12:42:37.287] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\config.php:upstream] linting in progress, waiting (cache-key:4078eba981329ef6d92616b6da1df875)
+[2025-10-21 12:42:37.287] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\index.php:upstream] linting in progress, waiting (cache-key:694aadd1a009725ae9352ddbabc14b7d)
+[2025-10-21 12:42:37.287] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\klasse_registrer.php:upstream] linting in progress, waiting (cache-key:b5fc8b10b9debbc906c36d4d5ebb2e5e)
+[2025-10-21 12:42:37.287] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\klasse_vis.php:upstream] linting in progress, waiting (cache-key:aec525cd4e29e6c9b03a21666ac6b27e)
+[2025-10-21 12:42:37.288] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\setup.sql:upstream] linting in progress, waiting (cache-key:e34f27b6dbe4b1a3b3faa0b5c758cd4a)
+[2025-10-21 12:42:37.288] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\student_registrer.php:upstream] linting in progress, waiting (cache-key:ac659893b444ced0c65457256e9934b1)
+[2025-10-21 12:42:37.288] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\student_vis.php:upstream] linting in progress, waiting (cache-key:e4516e13b4278bdd16640693212e456e)
+[2025-10-21 12:42:37.288] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:innlevering2\test_db.php:upstream] linting in progress, waiting (cache-key:a793f3874dc9f3dd61dc0862ce8745c6)
+[2025-10-21 12:42:37.288] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:tema06\eksempler\db-tilkobling-dokploy.php:upstream] linting in progress, waiting (cache-key:e3bd2c7e4330651153709e4ec6047c87)
+[2025-10-21 12:42:37.288] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:tema06\eksempler\dynamiske-funksjoner.php:upstream] linting in progress, waiting (cache-key:3e9f2addf99db4efca968a7a41e73198)
+[2025-10-21 12:42:37.299] [global] [info] [cache.cc:934] [on-demand] [markdownlint:lint:innlevering2\DEPLOY.md:upstream] already cached, not running linter
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\prettier\3.6.2-5f97d52b5ebf101d73ce0489ebcdf874/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.119] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:38.210] [global] [info] [cache.cc:1117] [on-demand] [prettier:format:innlevering2\DEPLOY.md:HEAD] Linter ran in 1611ms
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\trufflehog\3.90.11-daa6080d5bbd8a0c162ab9598838c29d/Scripts\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.850] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\stian\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:Systemet finner ikke angitt bane.
+[2025-10-21 12:42:39.910] [global] [info] [cache.cc:1117] [on-demand] [trufflehog:lint:config.php... (13 files):HEAD] Linter ran in 2992ms
+[2025-10-21 12:42:40.154] [global] [info] [service.cc:528] [user-agent= sid=50] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2025-10-21 12:42:40.154] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=50] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2025-10-21 12:42:40.155] [global] [info] [runner.cc:1128] Git-ignored path: .trunk\configs\.markdownlint.yaml
+[2025-10-21 12:42:40.156] [global] [info] [service.cc:585] [user-agent=lsp-proxy sid=50] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2025-10-21 12:42:40.160] [global] [info] [service.cc:256] lint session ended sid=50
+[2025-10-21 12:42:40.160] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=50] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 12:42:40.160] [global] [info] [service.cc:258] [user-agent=lsp-proxy sid=50] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 12:42:40.160] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2025-10-21 12:42:40.167] [global] [info] [service.cc:325] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2025-10-21 12:42:48.150] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:48.150] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:48.957] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:42:48.957] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:43:05.995] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:43:05.995] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:43:06.787] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:43:06.787] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:43:50.670] [global] [info] [git_source_control.cc:517] Computing merge base between 4384b78ac304fc5c17b2f129d609e3a912c06850 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:43:50.670] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:44:03.258] [global] [info] [git_source_control.cc:517] Computing merge base between 9c24feeaf767861bf920abbf0d1d8919a0ec7da5 and 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:44:03.266] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 4384b78ac304fc5c17b2f129d609e3a912c06850
+[2025-10-21 12:44:05.443] [global] [info] [git_source_control.cc:517] Computing merge base between 9c24feeaf767861bf920abbf0d1d8919a0ec7da5 and 9c24feeaf767861bf920abbf0d1d8919a0ec7da5
+[2025-10-21 12:44:05.443] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 9c24feeaf767861bf920abbf0d1d8919a0ec7da5
+[2025-10-21 12:48:55.023] [global] [info] [git_source_control.cc:517] Computing merge base between 9c24feeaf767861bf920abbf0d1d8919a0ec7da5 and 9c24feeaf767861bf920abbf0d1d8919a0ec7da5
