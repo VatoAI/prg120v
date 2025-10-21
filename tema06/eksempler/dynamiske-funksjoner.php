@@ -8,12 +8,14 @@
 
 function listeboksPostnr()
 {
-  include("db-tilkobling.php");  /* tilkobling til database-server og valg av database utført */
+  include("db-tilkobling-dokploy.php");  /* tilkobling til database-server og valg av database utført */
       
   $sqlSetning="SELECT * FROM poststed ORDER BY postnr;";
-  $sqlResultat=mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; hente data fra databasen"); 
-    /* SQL-setning sendt til database-serveren */
-	
+  $sqlResultat=mysqli_query($db,$sqlSetning);
+  if (!$sqlResultat) {
+    die("Database error: " . mysqli_error($db));
+  }
+  
   $antallRader=mysqli_num_rows($sqlResultat);  /* antall rader i resultatet beregnet */
 
   for ($r=1;$r<=$antallRader;$r++)
@@ -28,15 +30,15 @@ function listeboksPostnr()
 
 function sjekkbokserPostnr()
 {
-  include("db-tilkobling.php");  /* tilkobling til database-server og valg av database utført */
+  include("db-tilkobling-dokploy.php");  /* tilkobling til database-server og valg av database utført */
       
   $sqlSetning="SELECT * FROM poststed ORDER BY postnr;";
-  $sqlResultat=mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; hente data fra databasen");  
-    /* SQL-setning sendt til database-serveren */
-      
-  $antallRader=mysqli_num_rows($sqlResultat);  /* antall rader i resultatet beregnet */
-
-  for ($r=1;$r<=$antallRader;$r++)
+  $sqlResultat=mysqli_query($db,$sqlSetning);
+  if (!$sqlResultat) {
+    die("Database error: " . mysqli_error($db));
+  }
+  
+  $antallRader=mysqli_num_rows($sqlResultat);  /* antall rader i resultatet beregnet */  for ($r=1;$r<=$antallRader;$r++)
     {
       $rad=mysqli_fetch_array($sqlResultat);  /* ny rad hentet fra spørringsresultatet */
       $postnr=$rad["postnr"];       
