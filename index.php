@@ -87,23 +87,87 @@
                 </div>
             </div>
 
-            <!-- Coming Soon -->
+            <!-- Tema Oversikt -->
             <div class="col-md-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <i class="fas fa-clock me-2"></i>
-                            Kommer Snart
+                            <i class="fas fa-book me-2"></i>
+                            Temaer og Eksempler
                         </h5>
-                        <p class="card-text">
-                            Flere spennende funksjoner og innleveringer kommer snart. 
-                            Følg med for oppdateringer!
-                        </p>
-                        <div class="d-grid">
-                            <button class="btn btn-secondary" disabled>
-                                <i class="fas fa-hourglass-half me-2"></i>
-                                Under Utvikling
-                            </button>
+                        <div class="list-group">
+                            <a href="tema01/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-folder me-2"></i>Tema 1</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="tema02/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-folder me-2"></i>Tema 2</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="tema03/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-folder me-2"></i>Tema 3</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="tema04/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-folder me-2"></i>Tema 4</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="tema05/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-folder me-2"></i>Tema 5</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="tema06/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-folder me-2"></i>Tema 6</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resources -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-file-alt me-2"></i>
+                            Dokumentasjon
+                        </h5>
+                        <div class="list-group">
+                            <a href="PRG120V_NotebookLM_Overview.md" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fab fa-markdown me-2"></i>Notebook Overview</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="PRG120V_Oversikt_og_Notater.ipynb" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-book-open me-2"></i>Oversikt og Notater</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="DEPLOY.md" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-cloud-upload-alt me-2"></i>Deployment Guide</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Development -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-code me-2"></i>
+                            Utvikling
+                        </h5>
+                        <div class="list-group">
+                            <a href="Dockerfile" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fab fa-docker me-2"></i>Dockerfile</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href=".dockerignore" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                <span><i class="fab fa-docker me-2"></i>Docker Ignore</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
