@@ -27,7 +27,7 @@ $klasser = $stmt->fetchAll();
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
         <div class="container">
-            <a class="navbar-brand" href="index.php">Studentadministrasjon</a>
+            <a class="navbar-brand" href="../studentadmin.php">Studentadministrasjon</a>
         </div>
     </nav>
 
