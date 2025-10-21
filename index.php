@@ -1,28 +1,80 @@
 <!DOCTYPE html>
 <html lang="no">
-<head><base href="/app/stpet1155-prg120v/">
+<head>
+    <base href="/app/stpet1155-prg120v/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRG120V - Studentadministrasjon</title>
+    <title>PRG120V - Velkommen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        .nav-link:hover {
-            background-color: rgba(0,0,0,0.1);
-            border-radius: 5px;
-        }
-        .card {
-            transition: transform 0.2s, box-shadow 0.2s;
-            border: none;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-        }
         body {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background-color: #f8f9fa;
             min-height: 100vh;
         }
+        .container {
+            max-width: 1200px;
+        }
+        .hero-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .nav-buttons {
+            margin-top: 2rem;
+        }
+        .nav-buttons .btn {
+            margin: 0.5rem;
+            padding: 0.75rem 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero-section text-center">
+            <h1>Velkommen til PRG120V</h1>
+            <p class="lead">Dette er et studentadministrasjonssystem utviklet som del av PRG120V kurset. Systemet lar deg administrere klasser og studenter på en enkel og effektiv måte.</p>
+            
+            <div class="nav-buttons">
+                <a href="innlevering2/klasse_vis.php" class="btn btn-primary">
+                    <i class="fas fa-users me-2"></i>Administrer Klasser
+                </a>
+                <a href="innlevering2/student_vis.php" class="btn btn-success">
+                    <i class="fas fa-user-graduate me-2"></i>Administrer Studenter
+                </a>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-book me-2"></i>Kursmateriale
+                        </h5>
+                        <p class="card-text">Se gjennom kursmateriell og eksempler fra tema 1-6.</p>
+                        <a href="index.html" class="btn btn-outline-primary">Vis Materiale</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-code me-2"></i>Dokumentasjon
+                        </h5>
+                        <p class="card-text">Teknisk dokumentasjon og implementasjonsdetaljer.</p>
+                        <a href="PRG120V_NotebookLM_Overview.md" class="btn btn-outline-secondary">Les Mer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         .hero {
             padding: 4rem 0;
             text-align: center;
